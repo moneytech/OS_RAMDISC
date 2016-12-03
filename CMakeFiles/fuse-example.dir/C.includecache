@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wytrzeszcz/git/fuse-example/fuse-example.c
+fuse.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+stdio.h
+-
+

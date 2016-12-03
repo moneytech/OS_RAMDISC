@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wytrzeszcz/git/fuse-example",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g   -o CMakeFiles/fuse-example.dir/fuse-example.c.o   -c /home/wytrzeszcz/git/fuse-example/fuse-example.c",
+  "file": "/home/wytrzeszcz/git/fuse-example/fuse-example.c"
+}
+]
