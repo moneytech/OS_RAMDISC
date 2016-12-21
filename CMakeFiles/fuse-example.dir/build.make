@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wytrzeszcz/git/fuse-example
+CMAKE_SOURCE_DIR = /home/wytrzeszcz/git/OS_RAMDISC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wytrzeszcz/git/fuse-example
+CMAKE_BINARY_DIR = /home/wytrzeszcz/git/OS_RAMDISC
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fuse-example.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/fuse-example.dir/flags.make
 
 CMakeFiles/fuse-example.dir/fuse-example.c.o: CMakeFiles/fuse-example.dir/flags.make
 CMakeFiles/fuse-example.dir/fuse-example.c.o: fuse-example.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wytrzeszcz/git/fuse-example/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wytrzeszcz/git/OS_RAMDISC/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/fuse-example.dir/fuse-example.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fuse-example.dir/fuse-example.c.o   -c /home/wytrzeszcz/git/fuse-example/fuse-example.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/fuse-example.dir/fuse-example.c.o   -c /home/wytrzeszcz/git/OS_RAMDISC/fuse-example.c
 
 CMakeFiles/fuse-example.dir/fuse-example.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fuse-example.dir/fuse-example.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/wytrzeszcz/git/fuse-example/fuse-example.c > CMakeFiles/fuse-example.dir/fuse-example.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/wytrzeszcz/git/OS_RAMDISC/fuse-example.c > CMakeFiles/fuse-example.dir/fuse-example.c.i
 
 CMakeFiles/fuse-example.dir/fuse-example.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fuse-example.dir/fuse-example.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/wytrzeszcz/git/fuse-example/fuse-example.c -o CMakeFiles/fuse-example.dir/fuse-example.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/wytrzeszcz/git/OS_RAMDISC/fuse-example.c -o CMakeFiles/fuse-example.dir/fuse-example.c.s
 
 CMakeFiles/fuse-example.dir/fuse-example.c.o.requires:
 .PHONY : CMakeFiles/fuse-example.dir/fuse-example.c.o.requires
@@ -98,6 +98,6 @@ CMakeFiles/fuse-example.dir/clean:
 .PHONY : CMakeFiles/fuse-example.dir/clean
 
 CMakeFiles/fuse-example.dir/depend:
-	cd /home/wytrzeszcz/git/fuse-example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wytrzeszcz/git/fuse-example /home/wytrzeszcz/git/fuse-example /home/wytrzeszcz/git/fuse-example /home/wytrzeszcz/git/fuse-example /home/wytrzeszcz/git/fuse-example/CMakeFiles/fuse-example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wytrzeszcz/git/OS_RAMDISC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wytrzeszcz/git/OS_RAMDISC /home/wytrzeszcz/git/OS_RAMDISC /home/wytrzeszcz/git/OS_RAMDISC /home/wytrzeszcz/git/OS_RAMDISC /home/wytrzeszcz/git/OS_RAMDISC/CMakeFiles/fuse-example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fuse-example.dir/depend
 

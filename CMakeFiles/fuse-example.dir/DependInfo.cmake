@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/wytrzeszcz/git/fuse-example/fuse-example.c" "/home/wytrzeszcz/git/fuse-example/CMakeFiles/fuse-example.dir/fuse-example.c.o"
+  "/home/wytrzeszcz/git/OS_RAMDISC/fuse-example.c" "/home/wytrzeszcz/git/OS_RAMDISC/CMakeFiles/fuse-example.dir/fuse-example.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
